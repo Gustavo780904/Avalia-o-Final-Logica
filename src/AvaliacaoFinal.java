@@ -61,7 +61,6 @@ public class AvaliacaoFinal {
 					valorConta[i] = valorAssinatura[0][0] + (minutos[i] - 90) * valorAssinatura[0][1];
 				} else if (tipo[i] == 1) {
 					valorConta[i] = valorAssinatura[1][0] + (minutos[i] - 90) * valorAssinatura[1][1];
-					;
 				} else {
 					valorConta[i] = valorAssinatura[2][0] + (minutos[i] - 90) * valorAssinatura[2][1];
 				}
